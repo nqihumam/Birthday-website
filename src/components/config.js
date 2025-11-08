@@ -6,37 +6,37 @@ const config = {
   */
 
   // 🔐 Passcode Page
-  correctPasscode: "0000", // Change this to any 4-digit code (the passcode for access)
+  correctPasscode: "2305", // Change this to any 4-digit code (the passcode for access)
   passcodeTitle: "Enter Passcode", // Title displayed on the passcode entry page
   successMessage: "Yayy!! :)", // Message shown upon successful passcode entry
-  redirectMessage: "Redirecting...", // Message displayed while redirecting after success
-  incorrectPasscodeMessage: "Incorrect passcode, hint: our anniversary date!", // Message shown for incorrect passcode
+  redirectMessage: "Tunggu bentar ayy...", // Message displayed while redirecting after success
+  incorrectPasscodeMessage: "Walaaa salah password nya, hint: tanggal dan bulan jadian!", // Message shown for incorrect passcode
   cancelButtonText: "Cancel", // Text for the cancel button
 
   // 🔍 Question Page
   searchPlaceholder: "Search Google or type a URL", // Placeholder text in the search input
   trendingTitle: "Trending searches", // Title for the trending searches section
   trendingSearches: [
-    "Why is my bf so cute?", // Example trending search query
-    "Why does Rheina love him more?", // Another example query
-    `Rheina's birthdate (coz her bf forgets)`, // A personalized trending search
+    "Kenapa Pacarku humam, manis banget ya?", // Example trending search query
+    "Kenapa Azaria sayang banget sama aku?", // Another example query
+    `Azaria Ultah (tidak akan dilupakan oleh humam)`, // A personalized trending search
   ],
   proTip: 'Pro tip: try searching "How long have we been together?" ;)', // Helpful tip for users
 
   // ⏳ Timer Page
-  anniversaryDate: "2024-10-18", // 📅 Set your anniversary date here (used for the timer)
-  timerTitle: "We've been together for:", // Title displayed on the timer page
-  timerMessage: "... and still counting <3", // Message shown alongside the timer
+  anniversaryDate: "2025-03-25", // 📅 Set your anniversary date here (used for the timer)
+  timerTitle: "Kita udah bersama selama:", // Title displayed on the timer page
+  timerMessage: "... and tetap bersama <3", // Message shown alongside the timer
   timeUnits: {
-    days: "Days", // Label for days in the timer
-    hours: "Hours", // Label for hours in the timer
-    minutes: "Minutes", // Label for minutes in the timer
-    seconds: "Seconds", // Label for seconds in the timer
+    days: "Hari", // Label for days in the timer
+    hours: "Jam", // Label for hours in the timer
+    minutes: "Menit", // Label for minutes in the timer
+    seconds: "Detik", // Label for seconds in the timer
   },
 
   // 📸 Recap Page
-  recapTitle: "Let's recap our time together", // Title for the recap page
-  clickMeText: "Click me!", // Text prompting users to interact
+  recapTitle: "Yok kita liat kenangan kita bersama", // Title for the recap page
+  clickMeText: "Click disini ayy!", // Text prompting users to interact
 
   recapSections: [
     { label: "Messages", path: "/recap/message", icon: "Message" }, // Section for messages
