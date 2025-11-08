@@ -6,7 +6,7 @@ const config = {
   */
 
   // 🔐 Passcode Page
-  correctPasscode: "2305", // Change this to any 4-digit code (the passcode for access)
+  correctPasscode: "2303", // Change this to any 4-digit code (the passcode for access)
   passcodeTitle: "Enter Passcode", // Title displayed on the passcode entry page
   successMessage: "Yayy!! :)", // Message shown upon successful passcode entry
   redirectMessage: "Tunggu bentar ayy...", // Message displayed while redirecting after success
@@ -21,7 +21,7 @@ const config = {
     "Kenapa Azaria sayang banget sama aku?", // Another example query
     `Azaria Ultah (tidak akan dilupakan oleh humam)`, // A personalized trending search
   ],
-  proTip: 'Pro tip: try searching "How long have we been together?" ;)', // Helpful tip for users
+  proTip: 'Pro tip: try searching "Udah berapa lama kita jadian?" ;)', // Helpful tip for users
 
   // ⏳ Timer Page
   anniversaryDate: "2025-03-25", // 📅 Set your anniversary date here (used for the timer)
@@ -39,7 +39,6 @@ const config = {
   clickMeText: "Click disini ayy!", // Text prompting users to interact
 
   recapSections: [
-    { label: "Messages", path: "/recap/message", icon: "Message" }, // Section for messages
     { label: "Pictures", path: "/recap/pictures", icon: "Image" }, // Section for pictures
     { label: "Music", path: "/recap/music", icon: "Music" }, // Section for music
   ],
@@ -140,8 +139,8 @@ const config = {
 
   // 🔍 Search Queries (Only change if modifying search functionality)
   correctSearchQueries: [
-    "How long have we been together?", // Example of a correct search query
-    "how long have we been together", // Another example of a correct search query
+    "Udah berapa lama kita jadian?", // Example of a correct search query
+    "udah berapa lama kita jadian?", // Another example of a correct search query
   ],
 };
 
