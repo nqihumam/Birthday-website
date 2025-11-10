@@ -46,52 +46,28 @@ const config = {
   musicTitle: "Songs that remind me of you", // Title for the music page
   musicGallery: [
     {
-      title: "Heavenly", // Title of the song
-      artist: "Cigarettes After Sex", // Artist of the song
+      title: "Heather", // Title of the song
+      artist: "Conan Gray", // Artist of the song
       left: "5%", // Positioning on the page
       top: "5%", // Positioning on the page
     },
     {
-      title: "The Boy Is Mine",
-      artist: "Brandy, Monica",
+      title: "Nina",
+      artist: "Feast",
       left: "40%",
       top: "15%",
     },
     {
-      title: "Die With A Smile",
-      artist: "Lady Gaga, Bruno Mars",
+      title: "Cuek",
+      artist: "Rizky Febian",
       left: "15%",
       top: "40%",
     },
     {
-      title: "Last Night on Earth",
-      artist: "Green Day",
+      title: "To the Bone",
+      artist: "Pamungkasen",
       left: "30%",
       top: "75%",
-    },
-    {
-      title: "American Boy",
-      artist: "Estelle, Kanye West",
-      left: "5%",
-      top: "65%",
-    },
-    {
-      title: "Sparks",
-      artist: "Coldplay",
-      left: "25%",
-      top: "90%",
-    },
-    {
-      title: "Kiss Me Thru The Phone",
-      artist: "Soulja Boy, Sammie",
-      left: "35%",
-      top: "50%",
-    },
-    {
-      title: "Sunsetz",
-      artist: "Cigarettes After Sex",
-      left: "10%",
-      top: "25%",
     },
   ],
 
