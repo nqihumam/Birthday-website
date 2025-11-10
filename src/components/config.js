@@ -39,7 +39,6 @@ const config = {
   clickMeText: "Click disini ayy!", // Text prompting users to interact
 
   recapSections: [
-    { label: "Pictures", path: "/recap/pictures", icon: "Image" }, // Section for pictures
     { label: "Music", path: "/recap/music", icon: "Music" }, // Section for music
   ],
 
@@ -114,10 +113,10 @@ const config = {
   
 
   // 💌 Love Letter Page
-  loveLetterMessage: "Hi, I love you so much💖", // Message displayed on the love letter page
+  loveLetterMessage: "Halo ayyy, selamat ulang tahun yaaaaa🎉🎉🎉, semoga dengan bertambah usia tambah digampangkan urusannya💖💖💖 ", // Message displayed on the love letter page
 
   // 🎇 Closing Page
-  closingMessage: "Thank you for everything, my love! 💖 Wishing us many more wonderful years together.", // Closing message displayed
+  closingMessage: "Makasih udah mau bersama ayyy, maaf belum jadi pacar yang baik, tapi tenang. Bakal aku usahain terus jadi lebih baik ayy.", // Closing message displayed
 
   /* 
   ████████████████████████████████████████
